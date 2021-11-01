@@ -1,0 +1,90 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: gray;
+}
+/*Git Hub*/
+.github {
+    background-color: #9804D8;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 3px black;
+    max-width: 768px;
+    min-width: 320px;
+    width: 100%;
+}
+/*Search*/
+.search {
+    margin-bottom: 2rem;
+    width: 100%;
+    
+}
+
+.search input {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: none;
+    border-radius: .5rem;
+}
+/*Usercard*/
+.usecard {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.usercard img{
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px black;
+}
+
+.usercard h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.usercard p {
+    text-align: center;
+}
+
+/*Data*/
+.data {
+    margin-bottom: 2rem;
+}
+
+.data ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*Repos*/
+.repos {
+    text-align: center;
+}
+
+.repos a {
+    text-decoration: none;
+    color: white;
+    background-color: #EC8A0D;
+    padding: 1rem;
+    font-size: 1rem;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.5);
+    border-radius: 5px;
+    margin: .5rem;
+    display: inline-block;
+}
